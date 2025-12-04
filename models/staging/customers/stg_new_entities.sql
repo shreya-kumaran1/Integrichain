@@ -55,4 +55,4 @@ select
         state,
         postal_code
     ) as full_details
-from normalized;
+from normalized

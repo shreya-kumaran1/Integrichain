@@ -5,7 +5,7 @@
 
 with source as (
     -- raw golden entities in SHREYA_SANDBOX.CUSTOMERS
-    select * from {{ source('customers', 'golden_entities') }}
+    select * from {{ ref('stg_golden_entities') }}
 ),
 
 normalized as (

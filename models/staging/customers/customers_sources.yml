@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: customers
+    database: shreya_sandbox
+    schema: customers
+    tables:
+      - name: golden_entities
+      - name: new_entities
